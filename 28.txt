@@ -1,0 +1,43 @@
+65  docker run -td --name webserver -p 80:80 ubuntu
+66  docker ps
+67  docker port webserver
+68  docker exec -it webserver /bin/bash
+69  docker ps
+70  docker exec -it webserver /bin/bash
+71  docker images
+72  docker login
+73  docker tag saiimage sai3cs/newsaiimage
+74  docker push sai3cs/newsaiimage
+75  docker pull centos
+76  docker run -it --name centoscont centos /bin/bash
+77  docker images
+78  docker run -td jenkinscont jenkins/jenkins
+79  docker run -td --name jenkinscont jenkins/jenkins
+80  docker ps -a
+81  docker rm jenkinscon
+82  docker rm jenkinscont
+83  docker run -td --name jenkinscont jenkins/jenkins
+84  docker ps
+85  docker attach -it jenkinscont /bin/bash
+86  docker exec -it jenkinscont /bin/bash
+87  history
+
+
+1  yum update -y
+2  yum install docker -y
+3  service docker start
+4  docker images
+5  docker ps -a
+6  docker pull sai3cs/newsaiimage
+7  docker images
+8  docker run -it --name haricont sai3cs/newsaiimage /bin/bash
+9  docker stop haricont
+10  docker rm haricont
+11  docker rmi sai3cs/newsaiimage
+12  docker images
+13  docker ps -a
+14  docker pull sai3cs/newsaiimage
+15  docker login
+16  docker pull sai3cs/newsaiimage
+17  docker logout
+18  history

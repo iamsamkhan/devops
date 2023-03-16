@@ -1,0 +1,29 @@
+155  ls
+156  vi install_multiple_packages.yml
+157  ansible-playbook install_multiple_packages.yml
+158  cat install_multiple_packages.yml
+159  vi create_multiple_users.yml
+160  ansible-playbook create_multiple_users.yml
+161  ls
+162  vi create_user_vars.yml
+163  ansible-playbook create_user_vars.yml
+164  cat create_user_vars.yml
+165  vi create_user_vars.yml
+166  ansible-playbook create_user_vars.yml
+167  vi create_user_vars.yml
+168  vi user.yml
+169  vi create_user_vars_file.yml
+170  ansible-playbook create_user_vars_file.yml
+171  vi user.yml
+172  ansible-playbook create_user_vars_file.yml
+173  vi create_user_vars_file.yml
+174  ansible-playbook create_user_vars_file.yml
+175  vi create_user_vars_file.yml
+176  ansible-playbook create_user_vars_file.yml -e "user2=aalia"
+177  ansible-playbook create_user_vars_file.yml --extra-vars "user2=kiara"
+178  vi create_user_vars_file.yml
+179  vi testest
+180  history
+
+
+

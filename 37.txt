@@ -1,0 +1,32 @@
+1  yum install java -y
+2  ls
+3  ls /
+4  cd /opt/
+5  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz
+6  ls
+7  tar -xvzf apache-tomcat-8.5.81.tar.gz
+8  ls
+9  cd apache-tomcat-8.5.81/
+10  ls
+11  cd bin/
+12  ls
+13  chmod 777 startup.sh
+14  ls -l startup.sh
+15  pwd
+16  ./startup.sh
+17  history
+
+
+181  ls
+182  vi setup-tomcat.yml
+183  ansible-playbook setup-tomcat.yml
+184  vi setup-tomcat.yml
+185  ansible-playbook setup-tomcat.yml
+186  ansible-playbook setup-tomcat.yml > myfile
+187  ls
+188  cat myfile
+189  history
+
+
+
+COMPLETE & CONTINUE

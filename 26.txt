@@ -1,0 +1,45 @@
+1  docker run -it --name saicontainer ubuntu /bin/bash
+2  service docker start
+3  chkconfig docker on
+4  Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.
+5  See 'docker run --help'.
+6  docker run -it --name saicontainer ubuntu /bin/bash
+7  docker diff saicontainer
+8  docker commit saicontainer saiimage
+9  docker images
+10  docker run -it --name haricontainer saiimage /bin/bash
+11  vi Dockerfile
+12  ls
+13  docker build -t test .
+14  docker images
+15  docker run -it --name testcontainer test /bin/bash
+16  vi Dockerfile
+17  ls
+18  touch testfile1
+19  ls
+20  mkdir test
+21  ls
+22  cd test/
+23  mkdir -p /dira/dirb/dirc
+24  touch file1 file2 file3
+25  ls
+26  mkdir -p dira/dirb/dirc
+27  ls
+28  tree
+29  yum install tree -y
+30  tree
+31  cd ..
+32  ls
+33  tar -cvzf test.tar.gz test
+34  ls
+35  rm -rf test
+36  ls
+37  docker build -t devopsimg .
+38  docker images
+39  docker run -it --name devopscontainer devopsimg /bin/bash
+40  ls
+41  vi testsaifile
+42  docker build -t dockerimg . -f testsaifile
+43  docker images
+44  docker run -it --name dockercontainer dockerimg /bin/bash
+45  history

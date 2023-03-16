@@ -1,0 +1,53 @@
+22  sudo su -
+23  exit
+24  history
+25  ansible all --list-hosts
+26  ansible webservers --list-hosts
+27  ansible webservers[0] --list-hosts
+28  ansible webservers[1] --list-hosts
+29  ansible webservers[-1] --list-hosts
+30  ansible webservers[-2] --list-hosts
+31  ansible webservers[0:1] --list-hosts
+32  ansible all -m command -a "hostname -i"
+33  vi /etc/ansible/ansible.cfg
+34  sudo vi /etc/ansible/ansible.cfg
+35  ansible all -m command -a "hostname -i"
+36  ansible all -a "ls"
+37  ansible all -a "ls -la"
+38  ansible webservers -a "ls -la"
+39  ansible webservers[0] -a "ls"
+40  ansible webservers[-1] -a "ls"
+41  ansible all -a "touch myfile"
+42  sudo vi /etc/ansible/ansible.cfg
+43  ansible all -a "ls"
+44  ansible all -m ping
+45  ansible all -a "yum install httpd -y"
+46  ansible all -a "which httpd"
+47  ansible all -a "yum install httpd -y" -b
+48  ansible all -a "which httpd"
+49  ansible all -a "which httpd*"
+50  ansible all -a "which httpd"
+51  ansible all -a "which httpd" -b
+52  ls
+53  rm -rf file1
+54  touch saifile
+55  ls
+56  ansible all -b -m copy "src=saifile dest=/home/ansadmin/"
+57  ls
+58  ansible all -b -m copy "src=saifile dest=/home/ansadmin"
+59  ls
+60  ansible all -b -m copy -a "src=saifile dest=/home/ansadmin"
+61  ansible all -a "ls"
+62  ansible all -b -m yum -a "pkg=httpd state=present"
+63  ansible all -b -m yum -a "pkg=git state=present"
+64  ansible all -b -m yum -a "pkg=httpd state=latest"
+65  ansible all -b -m yum -a "pkg=httpd state=absent"
+66  ansible all -b -m yum -a "pkg=git state=present"
+67  ansible all -b -m yum -a "pkg=httpd state=present"
+68  ansible all -b -m service -a "name=httpd state=started"
+69  ansible all -b -m user -a "name=raj"
+70  ansible all -a "tail -2 /etc/passwd" -b
+71  ansible all -b -m user -a "name=raj state=absent"
+72  ansible all -a "tail -2 /etc/passwd" -b
+73  ansible all --list-hosts
+74  history

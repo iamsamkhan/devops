@@ -1,0 +1,91 @@
+161  ls
+162  cd mumbaigit/
+163  ls
+164  vi demofile
+165  cat demofile
+166  git add .
+167  git status
+168  cat demofile
+169  git reset .
+170  git status
+171  ls
+172  cat demofile
+173  git add .
+174  git commit -m "my latest code"
+175  git log --oneline
+176  cat demofile
+177  git show 59cacf4
+178  git revert 59cacf4
+179  ls
+180  git status
+181  git log --oneline
+182  ls
+183  touch file{1..5}
+184  ls
+185  git status
+186  touch saifile harifile
+187  git status
+188  git clean -n
+189  git clean -f
+190  ls
+191  git log --oneline
+192  git tag -a imp -m "my_imp_code" 3cea42f
+193  git tag
+194  git log --oneline
+195  git show imp
+196  git tag -d imp
+197  git log --oneline
+198  cd ..
+199  ls
+200  git clone https://github.com/iamsamkhan
+201  ls
+202  cd 930pmsairepo
+203  ls
+204  git log --oneline
+205  vi hellofile
+206  git add .
+207  git commit -m "hello file"
+208  git push origin main
+209  cd ..
+210  ls
+211  cd mumbaigit/
+212  ls
+213  git pull origin main
+214  ls
+215  vi filey
+216  git add .
+217  git commit -m "filey"
+218  git push origin main
+219  ls
+220  git pull origin main
+221  ls
+222  git push origin main
+223  ls
+224  vi filez
+225  git add .
+226  git commit -m "filez"
+227  git push origin main
+228  git pull origin main
+229  vi filez
+230  git add .
+231  git commit -m "fixed conflict"
+232  git push origin main
+233  ls
+234  vi filem
+235  git add .
+236  git commit -m "created file"
+237  git push origin main
+238  vi filem
+239  git add .
+240  git commit -m "modified file"
+241  git push origin main
+242  vi filem
+243  git add .
+244  git commit -m "deleted content of the file"
+245  git push origin main
+246  ls
+247  rm -rf filem
+248  git add .
+249  git commit -m "deleted file"
+250  git push origin main
+251  history

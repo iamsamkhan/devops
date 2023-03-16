@@ -1,0 +1,16 @@
+94  ls
+95  vi install_packages.yml
+96  vi install_packages.ymlls
+97  ls
+98  ansible-playbook install_packages.yml
+99  ls
+100  vi packages.yml
+101  ansible-playbook packages.yml
+102  vi packages.yml
+103*
+104  vi packages.yml
+105  ansible-playbook packages.yml
+106  ansible-playbook packages.yml -b
+107  ls
+108  pwd
+109  history

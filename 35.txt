@@ -1,0 +1,46 @@
+109  ls
+110  vi create_file.yml
+111  ls
+112  vi create_file.yml
+113  ansible-playbook create_file.yml
+114  ls
+115  vi create_directory.yml
+116  ansible-playbook create_directory.yml
+117  ls
+118  vi delete_directory.yml
+119  ansible-playbook delete_directory.yml
+120  ls
+121  vi index.html
+122  ls
+123  vi copy_file.yml
+124  ansible-playbook copy_file.yml
+125  ls
+126  vi index.html
+127  ansible-playbook copy_file.yml
+128  ls
+129  vi install_httpd.yml
+130  ansible-playbook install_httpd.yml
+131  ls
+132  vi uninstall_httpd.yml
+133  ansible-playbook uninstall_httpd.yml
+134  ls
+135  vi install_httpd.yml
+136  ansible-playbook install_httpd.yml
+137  vi install_apache.yml
+138  ansible-playbook uninstall_httpd.yml
+139  ls
+140  vi install_apache.yml
+141  ansible all -m setup
+142  ls
+143  vi install_apache.yml
+144  ansible-playbook install_apache.yml
+145  ls
+146  vi install_complete_webserver.yml
+147  ansible-playbook uninstall_httpd.yml
+148  ls
+149  cat index.html
+150  ls
+151  ansible-playbook install_complete_webserver.yml
+152  vi install_complete_webserver.yml
+153  ls
+154  history

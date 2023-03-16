@@ -1,0 +1,44 @@
+161  ls
+162  cd mumbaigit/
+163  git branch
+164  ls
+165  touch 20saidemy
+166  ls
+167  git push origin main:main
+168  git add .
+169  git commit -m "saidemy"
+170  git push origin main:main
+171  git checkout new
+172  ls
+173  git pull origin main:new
+174  ls
+175  git push origin new:test
+176  git checkout main
+177  ls
+178  touch 20devops
+179  git add .
+180  git commit -m "devops"
+181  git push origin main:test
+182  git clone https://github.com/iamsamkhan
+183  ls
+184  cd ..
+185  git clone https://github.com/SaiDevOpsFaculty/20DevOpsPrivateRepo.git
+186  ls
+187  cd 20DevOpsPrivateRepo/
+188  ls
+189  touch file2
+190  git add .
+191  git commit -m "file2"
+192  git branch
+193  git push origin main
+194  git pull origin main
+195  ls
+196  mkdir testdir
+197  cp file1  file2  file3 testdir/
+198  ls testdir/
+199  yum install tree -y
+200  tree
+201  git add .
+202  git commit -m "dir"
+203  git push origin main
+204  history

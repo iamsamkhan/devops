@@ -1,0 +1,47 @@
+1  yum update -y
+2  wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+3  ls
+4  yum install epel-release-latest-7.noarch.rpm -y
+5  yum update -y
+6  yum install git python python-devel python-pip openssl ansible -y
+7  ansible --version
+8  adduser ansadmin
+9  passwd ansadmin
+10  su - ansadmin
+11  visudo
+12  rm -rf
+13  rm -rf /etc/sudoers.tmp
+14  visudo
+15  rm -rf /etc/sudoers.tmp
+16  visudo
+17  su - ansadmin
+18  vi /etc/ssh/sshd_config
+19  service sshd reload
+20  su - ansadmin
+21  history
+
+
+1  touch file1
+2  yum install tree -y
+3  sudo yum install tree -y
+4  exit
+5  ls
+6  yum install tree -y
+7  sudo yum install tree -y
+8  exit
+9  ssh ansadmin@172.31.10.71
+10  ssh 172.31.4.215
+11  ssh ansadmin@172.31.10.71
+12  ssh-keygen
+13  ls -a
+14  cd .ssh/
+15  ls
+16  ssh-copy-id ansadmin@172.31.10.71
+17  ssh-copy-id ansadmin@172.31.4.215
+18  cd ..
+19  ssh 172.31.10.71
+20  ssh 172.31.4.215
+21  history
+22  sudo su -
+23  exit
+24  history

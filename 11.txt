@@ -1,0 +1,87 @@
+145  tree
+146  mv dir1/dirx/diry dira/dirb/dirc
+147  tree
+148  ls
+149  cd dir1
+150  cd ..
+151  pwd
+152  tree
+153  vi dir1/dirx/testfile
+154  tree
+155  exit
+156  tree
+157  cd dira/dirb/dirc/
+158  cd
+159  cd dir1/dirx
+160  cd
+161  pwd
+162  tree
+163  ls
+164  touch jhjkfsbkjvdjvdkkjvbdjkbvdjnjvnjfdjvnjdfbjkdfjbdjk
+165  l
+166  ls
+167  mkdir dirtestsai
+168  ls
+169  tree
+170  ls
+171  rm -rf jhjkfsbkjvdjvdkkjvbdjkbvdjnjvnjfdjvnjdfbjkdfjbdjk
+172  ls
+173  touch fjgvbjkfdvjkbfdjbgvjkfbvjkbfjkbvdjfbvkjbvbkjbvjkdfvjns
+174  ls
+175  cat /etc/passwd
+176  grep root /etc/passwd
+177  less /etc/passwd
+178  more /etc/passwd
+179  head /etc/passwd
+180  head -2 /etc/passwd
+181  head -4 /etc/passwd
+182  tail /etc/passwd
+183  tail -3 /etc/passwd
+184  ls
+185  rm -rf fjgvbjkfdvjkbfdjbgvjkfbvjkbfjkbvdjfbvkjbvbkjbvjkdfvjns
+186  ls
+187  touch myfile
+188  cat > myfile
+189  sort myfile
+190  cat myfile
+191  hostname
+192  ifconfig
+193  hostname -i
+194  cat /etc/os-release
+195  cat /etc/os-rele*
+196  cat /etc/*release
+197  cat /etc/*rele*
+198  yum install httpd -y
+199  yum update httpd -y
+200  yum remove httpd -y
+201  yum list installed
+202  yum install httpd -y
+203  service httpd status
+204  service httpd start
+205  service httpd status
+206  service httpd stop
+207  service httpd status
+208  service httpd reload
+209  service httpd start
+210  service httpd reload
+211  service httpd start
+212  chkconfig httpd on
+213  chkconfig httpd off
+214  service httpd start
+215  systemctl start httpd
+216  echo "Hi"
+217  echo "Hello"
+218  echo "Hello" > saifile
+219  ls
+220  cat saifile
+221  ls
+222  cat myfile
+223  sort myfile > testfile
+224  ls
+225  cat testfile
+226  yum list installed | grep httpd*
+227  which tree
+228  which httpcd
+229  which httpd
+230  which mysql
+231  history

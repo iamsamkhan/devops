@@ -1,0 +1,19 @@
+46  ls
+47  vi Dockerfile
+48  docker images
+49  docker build -t myimg .
+50  docker images
+51  docker run -it --name mycont1 myimg /bin/bash
+52  docker run -it --name mycont2 --privileged=true --volumes-from mycont1 ubuntu /bin/bash
+53  docker start mycont1
+54  docker attach mycont1
+55  docker run -it --name mycont3 -v /sai ubuntu /bin/bash
+56  docker run -it --name mycont4 --privileged=true --volumes-from mycont3 ubuntu /bin/bash
+57  docker start mycont3
+58  docker attach mycont3
+59  pwd
+60  ls
+61  docker run -it --name saidemycont -v /root:/raj --privileged=true ubuntu /bin/bash
+62  ls
+63  docker inspect saidemycont
+64  history

@@ -1,0 +1,35 @@
+1  yum install docker -y
+2  service docker status
+3  service docker start
+4  docker --version
+5  docker
+6  docker run -i -t ubuntu /bin/bash
+7  cat /etc/os-release
+8  docker images
+9  docker ps
+10  docker ps -a
+11  docker run -i -t ubuntu /bin/bash
+12  docker images
+13  docker ps
+14  docker ps -a
+15  docker search ubuntu
+16  docker search centos
+17  docker pull jenkins/jenkins
+18  docker images
+19  docker run -i -t jenkins/jenkins /bin/bash
+20  docker ps -a
+21  docker rename elegant_lalande jenkinscont
+22  docker ps -a
+23  docker images
+24  docker run -it --name saicontainer ubuntu /bin/bash
+25  docker ps -a
+26  docker start saicontainer
+27  docker attach saicontainer
+28  docker ps
+29  docker start saicontainer
+30  docker ps
+31  docker stop saicontainer
+32  docker ps
+33  docker rm saicontainer
+34  docker ps -a
+35  history

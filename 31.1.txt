@@ -1,0 +1,8 @@
+		Ansible Installation
+
+Launch Amazon Linux (need not to install ansible in nodes)
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum install epel-release-latest-7.noarch.rpm -y
+sudo yum update -y
+sudo yum install git python python-devel python-pip openssl ansible -y
+ansible --version

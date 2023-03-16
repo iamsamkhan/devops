@@ -1,0 +1,36 @@
+303  sudo su -
+304  yum install jenkins -y
+305  wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+306  yum install java-1.8* -y
+307  yum install jenkins -y
+308  rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+309  yum install jenkins -y
+310  ls
+311  rm -rf *
+312  ls
+313  touch file1
+314  ls
+315  mkdir dir1
+316  ls
+317  ls -l
+318  chmod 777 dir1
+319  ls -l
+320  chmod 444 dir1
+321  ls -l
+322  chmod 764 dir1
+323  ls -l
+324  chmod 777 file1
+325  ls -l
+326  chown raj dir1
+327  ls -l
+328  tail -2 /etc/group
+329  tail -3 /etc/group
+330  ls -l
+331  chgrp devops dir1
+332  ls -l
+333  ls
+334  mkdir testdir
+335  ls
+336  nano testdir/testfile
+337  tree
+338  history

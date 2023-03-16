@@ -1,0 +1,47 @@
+1  yum update -y
+    2  cat > file1
+    3  cat >> file1
+    4  ls
+    5  cat file1
+    6  touch file2
+    7  ls
+    8  nano file3
+    9  ls
+   10  nano file3
+   11  vi file4
+   12  ls
+   13  mkdir dir1
+   14  ls
+   15  ls -l
+   16  ls
+   17  touch .file5
+   18  ls
+   19  mkdir .dir2
+   20  ls
+   21  ls -a
+   22  ls -la
+   23  ls
+   24  mkdir -p dira/dirb/dirc
+   25  ls
+   26  cd dira
+   27  ls
+   28  cd dirb
+   29  ls
+   30  cd dirc
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd dira/dirb/dirc
+   35  cd ../../..
+   36  ls
+   37  cd dira/dirb/dirc
+   38  pwd
+   39  cd ..
+   40  pwd
+   41  cd ../..
+   42  ls
+   43  tree
+   44  yum install tree -y
+   45  ls
+   46  tree
+   47  history

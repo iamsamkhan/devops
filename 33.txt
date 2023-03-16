@@ -1,0 +1,19 @@
+75  ansible all -m setup
+76  ansible all -m setup -a 'filter=ipv4*'
+77  ls
+78  rm -rf *
+79  ls
+80  vi create_user.yml
+81  ls
+82  ansible-playbook create_user.yml
+83  ls
+84  cp create_user.yml create_user_oncemore.yml
+85  ls
+86  vi create_user_oncemore.yml
+87  ansible-playbook create_user_oncemore.yml
+88  vi create_user_oncemore.yml
+89  s
+90  ls
+91  cat create_user
+92  cat create_user.yml
+93  history

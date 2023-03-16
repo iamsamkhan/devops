@@ -1,0 +1,35 @@
+205  git status
+206  touch filea fileb
+207  ls
+208  git status
+209  git add filea
+210  git commit -m "filea"
+211  git rm filea
+212  ls
+213  git commit -m "filea"
+214  git log --oneline
+215  git show 4d8a308
+216  git show 327bb7f
+217  git status
+218  ssh-keygen
+219  ls -a
+220  cd .ssh/
+221  ls
+222  cat id_rsa.pub
+223  cat id_rsa
+224  cd ..
+225  ls
+226  git clone
+227  ls
+228  cd 21sairepo/
+229  touch file1
+230  git add .
+231  git commit -m "file1"
+232  git push origin main
+233  git pull origin main
+234  ls
+235  vi mycode
+236  git add .
+237  git commit -m "code"
+238  git push origin main
+239  history

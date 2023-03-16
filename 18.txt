@@ -1,0 +1,45 @@
+42  ls
+43  cd mumbaigit/
+44  ls
+45  git log
+46  cat myfile
+47  git pull origin main
+48  ls
+49  cat myfile
+50  git log
+51  git show 890de0b46530
+52  vi myfile
+53  git add myfile
+54  git commit -m "4th commit"
+55  git push origin main
+56  touch .gitignore
+57  ls
+58  vi .gitignore
+59  git add .gitignore
+60  git commit -m ".gitignore"
+61  touch 1.txt 2.txt 1.class 2.class    1.java
+62  ls
+63  git status
+64  git add .
+65  git status
+66  git commit -m "my files"
+67  ls
+68  touch sai.class
+69  git status
+70  git log
+71  git log -1
+72  git show 2855600ae
+73  git log -2
+74  git log --oneline
+75  git log --grep "files"
+76  history
+77  ls
+78  vi .gitignore
+79  git add .
+80  git commit -m ".git ignore"
+81  git status
+82  touch test.class
+83  git status
+84  git add .
+85  git commit -m "test.class"
+86  history

@@ -1,0 +1,51 @@
+1  yum update -y
+2  yum install git -y
+3  git --version
+4  which git
+5  git config --global user.name "Sai"
+6  git config --global user.email "sai3cs@gmail.com"
+7  git config --list
+8  mkdir mumbaigit
+9  cd mumbaigit/
+10  git init
+11  ls -l
+12  ls -a
+13  vi myfile
+14  ls -a
+15  git status
+16  git add .
+17  git status
+18  git commit -m "1st commit"
+19  ls -a
+20  git log
+21  git show 4fedcc2
+22  git remote add origin https://github.com/iamsamkhan
+23  git remove -v
+24  git remote -v
+25  git branch
+26  git branch -M main
+27  git branch
+28  git push origin main
+29  ls
+30  git log
+31  ls
+32  vi myfile
+33  git status
+34  git add myfile
+35  git status
+36  git commit -m "2nd commit"
+37  git log
+38  git show 1cfee892
+39  git log
+40  git push origin main
+41  history
+
+
+1  yum update -y
+2  yum install git -y
+3  git --version
+4  which git
+5  git config --global user.name "Hari"
+6  git config --global user.email "hari3cs@gmail.com"
+7   git config --list
+8  history

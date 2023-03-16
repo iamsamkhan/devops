@@ -1,0 +1,74 @@
+87  ls
+88  cd mumbaigit/
+89  git branch
+90  ls
+91  git log --oneline
+92  git branch new
+93  git branch
+94  git checkout new
+95  git branch
+96  git log --oneline
+97  ls
+98  git branch
+99  ls
+100  vi fileA
+101  git add .
+102  git commit -m "fileA"
+103  ls
+104  git branch
+105  git log --oneline
+106  git checkout main
+107  git branch
+108  ls
+109  git log --oneline
+110  git checkout new
+111  ls
+112  git log --oneline
+113  git branch
+114  vi fileB
+115  ls
+116  git checkout mai
+117  git checkout main
+118  git branch
+119  ls
+120  git branch
+121  ls
+122  git checkout new
+123  git branch
+124  ls
+125  git add .
+126  git commit -m "fileB"
+127  ls
+128  git checkout main
+129  git branch
+130  ls
+131  git branch
+132  ls
+133  git log --oneline
+134  git merge new
+135  ls
+136  git log --oneline
+137  git push origin main
+138  ls
+139  git branch
+140  vi rajfile
+141  git add .
+142  git commit -m "blue color"
+143  git checkout new
+144  git branch
+145  ls
+146  vi rajfile
+147  git add .
+148  git commit -m "red color"
+149  git checkout main
+150  git branch
+151  git merge new
+152  git branch
+153  ls
+154  vi rajfile
+155  git add .
+156  git commit -m "fixed conflict"
+157  cat rajfile
+158  ls
+159  git log --oneline
+160  history
